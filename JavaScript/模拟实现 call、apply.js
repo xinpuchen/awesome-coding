@@ -9,7 +9,7 @@
  * 5. 调用函数后删除这个不重名的属性
  */
 
-Function.prototype.fakeCall = function(obj, ...args) {
+Function.prototype.mockCall = function(obj, ...args) {
   if (this === Function.prototype) {
     return undefined;
   }
@@ -22,7 +22,7 @@ Function.prototype.fakeCall = function(obj, ...args) {
 };
 
 // apply 实现与 call 类似，参数为数组
-Function.prototype.fakeApply = function(obj, args) {
+Function.prototype.mockCall = function(obj, args) {
   if (this === Function.prototype) {
     return undefined;
   }
@@ -40,7 +40,7 @@ Function.prototype.fakeApply = function(obj, args) {
 };
 
 // 因为 call、apply 是 ES3 的方法，向下兼容
-Function.prototype.fakeCall = function(obj){
+Function.prototype.mockCall = function(obj){
   var context = obj || window;
   var args = [];
   context.fn = this;

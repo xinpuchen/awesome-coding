@@ -5,3 +5,4 @@
 ## JavaScript
 
 - 模拟实现 call、apply
+- 模拟实现 bind
