@@ -6,3 +6,6 @@
 
 - 模拟实现 call、apply
 - 模拟实现 bind
+- 模拟实现 new
+- 防抖 debounce
+- 节流 throttle
