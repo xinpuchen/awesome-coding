@@ -9,3 +9,4 @@
 - 模拟实现 new
 - 防抖 debounce
 - 节流 throttle
+- 函数柯里化
