@@ -22,7 +22,7 @@ Function.prototype.mockCall = function(obj, ...args) {
 };
 
 // apply 实现与 call 类似，参数为数组
-Function.prototype.mockCall = function(obj, args) {
+Function.prototype.mockApply = function(obj, args) {
   if (this === Function.prototype) {
     return undefined;
   }
