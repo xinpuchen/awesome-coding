@@ -4,9 +4,9 @@
 
 ## JavaScript
 
-- 模拟实现 call、apply
-- 模拟实现 bind
-- 模拟实现 new
-- 防抖 debounce
-- 节流 throttle
-- 函数柯里化
+- [模拟实现 call、apply](JavaScript/模拟实现call、apply.js)
+- [模拟实现 bind](JavaScript/模拟实现bind.js)
+- [模拟实现 new](JavaScript/模拟实现new.js)
+- [防抖 debounce](JavaScript/防抖debounce.js)
+- [节流 throttle](JavaScript/节流throttle.js)
+- [函数柯里化](函数柯里化.js)
