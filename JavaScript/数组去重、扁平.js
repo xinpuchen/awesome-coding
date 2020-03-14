@@ -1,0 +1,55 @@
+/**
+ * 数组去重
+ */
+
+const unique = array => [...new Set(array)];
+
+const unique = array => Array.from(new Set(array));
+
+const unique = array => {
+  return array.filter((value, key) => array.indexOf(value) === key);
+};
+
+const unique = array => {
+  var container = {};
+  return array.filter((item, index) =>
+    container.hasOwnProperty(item) ? false : (container[item] = true)
+  );
+};
+
+/**
+ * 数组扁平处理
+ */
+
+// 基本实现
+const flat = array => {
+  let result = [];
+  for (let i = 0, len = array.length; i < len; i++) {
+    if (Array.isArray(array[i])) {
+      result = result.concat(flat(array[i]));
+    } else {
+      result.push(array[i]);
+    }
+  }
+  return result;
+};
+
+// reduce 实现
+const flat = array =>
+  array.reduce(
+    (target, current) =>
+      Array.isArray(current)
+        ? target.concat(flat(current))
+        : target.concat(current),
+    []
+  );
+
+// 指定深度
+const flattenByDeep = (array, deep = Infinity) =>
+  array.reduce(
+    (target, current) =>
+      Array.isArray(current) && deep > 1
+        ? target.concat(flattenByDeep(current, deep - 1))
+        : target.concat(current),
+    []
+  );

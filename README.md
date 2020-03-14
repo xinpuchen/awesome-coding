@@ -12,3 +12,4 @@
 - [函数柯里化](JavaScript/函数柯里化.js)
 - [模拟实现 instanceof](JavaScript/模拟实现instanceof.js)
 - [实现深拷贝](JavaScript/深拷贝.js)
+- [数组去重、数组扁平化处理](JavaScript/数组去重、扁平.js)
