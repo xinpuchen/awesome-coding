@@ -5,12 +5,12 @@
  * 2. 返回一个 boolean 值
  */
 
-function mockINstanceof(target, origin) {
+function mockInstanceof(target, origin) {
   const prototype = target.__proto__;
   if (!prototype) return false;
   if (prototype === origin.prototype) {
     return true;
   } else {
-    return mockINstanceof(prototype, origin);
+    return mockInstanceof(prototype, origin);
   }
 }
