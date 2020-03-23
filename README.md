@@ -33,3 +33,4 @@
 
 - [冒泡排序](Algorithm/Sort/冒泡排序.js)
 - [插入排序](Algorithm/Sort/插入排序.js)
+- [选择排序](Algorithm/Sort/选择排序.js)
