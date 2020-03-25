@@ -32,6 +32,9 @@
 ### 二叉树
 
 - [二叉树的基本操作](DataStructure/Tree/二叉树的基本操作.js)
+- [二叉树的前序遍历](DataStructure/Tree/二叉树的前序遍历.js)
+- [二叉树的中序遍历](DataStructure/Tree/二叉树的中序遍历.js)
+- [二叉树的后序遍历](DataStructure/Tree/二叉树的后序遍历.js)
 
 ## 算法
 

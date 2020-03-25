@@ -42,13 +42,13 @@ Tree.prototype = {
       parent = current;
       if (data < parent.data) {
         current = current.left;
-        if (current) {
+        if (!current) {
           parent.left = node;
           return;
         }
       } else {
         current = current.right;
-        if (current) {
+        if (!current) {
           parent.right = node;
           return;
         }
