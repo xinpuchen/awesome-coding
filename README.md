@@ -37,6 +37,7 @@
 - [二叉树的后序遍历](DataStructure/Tree/二叉树的后序遍历.js)
 - [重建二叉树](DataStructure/Tree/重建二叉树.js)
 - [对称二叉树](DataStructure/Tree/对称二叉树.js)
+- [二叉树的镜像](DataStructure/Tree/二叉树的镜像.js)
 
 ## 算法
 
