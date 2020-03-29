@@ -8,9 +8,8 @@
  */
 
 function mockNew() {
-  var obj = Object.create(null);
   var constructor = Array.prototype.shift.call(arguments);
-  obj.__proto__ = constructor.prototype;
+  var obj = Object.create(constructor.prototype);
   var result = constructor.apply(obj, arguments);
   if (result && typeof result === "object") {
     return result;
