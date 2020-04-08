@@ -9,7 +9,7 @@
 //  时间戳实现：第一次事件触发，最后一次不触发
 function throttle(func, time) {
   let preTime = 0;
-  return function(...args) {
+  return function (...args) {
     if (Date.now() - preTime > time) {
       preTime = Date.now();
       func.apply(this, args);
@@ -20,7 +20,7 @@ function throttle(func, time) {
 // 定时器实现：第一次不触发，最后一次触发
 function throttle(func, time) {
   let timer = null;
-  return function(...args) {
+  return function (...args) {
     if (!timer) {
       timer = setTimeout(() => {
         timer = null;
@@ -34,7 +34,7 @@ function throttle(func, time) {
 function throttle(func, time) {
   let preTime = 0;
   let timer = null;
-  return function(...args) {
+  return function (...args) {
     if (Date.now() - preTime > time) {
       clearTimeout(timer);
       timer = null;

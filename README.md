@@ -29,6 +29,10 @@
 - [模拟实现 Set](JavaScript/New/模拟实现Set.js)
 - [模拟实现 reduce](JavaScript/New/模拟实现reduce.js)
 
+### 设计模式系列
+
+- [观察者模式](JavaScript/Mode/观察者模式.js)
+
 ## 数据结构
 
 ### 二叉树
