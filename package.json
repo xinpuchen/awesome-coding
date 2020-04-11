@@ -1,0 +1,30 @@
+{
+  "name": "awesome-coding",
+  "version": "1.0.0",
+  "description": "前端算法进阶之路，包括 JavaScript、数据结构、常见算法、剑指offer、leetCode",
+  "keywords": [
+    "JavaScript",
+    "数据结构",
+    "算法",
+    "剑指offer",
+    "leetCode"
+  ],
+  "main": "index.js",
+  "scripts": {
+    "dev:docs": "vuepress dev docs",
+    "build:docs": "vuepress build docs"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/xinpuchen/awesome-coding.git"
+  },
+  "author": "Xinpu",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/xinpuchen/awesome-coding/issues"
+  },
+  "homepage": "https://github.com/xinpuchen/awesome-coding#readme",
+  "devDependencies": {
+    "vuepress": "^1.4.0"
+  }
+}
