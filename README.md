@@ -2,6 +2,8 @@
 
 > 你必须非常努力，才能显得毫不费力！
 
+> 为了提高阅读体验，您可以移步 [https://xinpuchen.github.io/awesome-coding/](https://xinpuchen.github.io/awesome-coding/) 在线阅读
+
 ## JavaScript
 
 ### 深入系列
