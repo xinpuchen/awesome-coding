@@ -32,6 +32,7 @@ Function.prototype.mockBind = function(context) {
   }
   var _this = this;
   var args1 = Array.prototype.slice.call(arguments, 1);
+  var fNOP = function() {};
   var fBound = function() {
     var args2 = Array.prototype.slice.call(arguments);
     return _this.apply(
@@ -39,7 +40,6 @@ Function.prototype.mockBind = function(context) {
       args1.concat(args2)
     );
   };
-  var fNOP = function() {};
   fNOP.prototype = this.prototype;
   fBound.prototype = new fNOP();
   return fBound;

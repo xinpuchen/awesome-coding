@@ -10,7 +10,7 @@ module.exports = {
       { text: "数据结构", link: "/DataStructure/" },
       { text: "算法", link: "/Algorithm/" },
       { text: "博客", link: "https://xinpuchen.github.io" },
-      { text: "github", link: "https://github.com/xinpuchen" }
+      { text: "github", link: "https://github.com/xinpuchen" },
     ],
     sidebar: {
       "/JavaScript/": [
@@ -22,8 +22,8 @@ module.exports = {
             "/JavaScript/Depth/模拟实现bind.md",
             "/JavaScript/Depth/模拟实现new.md",
             "/JavaScript/Depth/模拟实现instanceof.md",
-            "/JavaScript/Depth/继承的多种方式.md"
-          ]
+            "/JavaScript/Depth/继承的多种方式.md",
+          ],
         },
         {
           title: "应用系列",
@@ -35,21 +35,21 @@ module.exports = {
             "/JavaScript/Apply/数组去重、扁平.md",
             "/JavaScript/Apply/数组乱序-洗牌算法.md",
             "/JavaScript/Apply/Promise封装ajax.md",
-            "/JavaScript/Apply/懒加载实现.md"
-          ]
+            "/JavaScript/Apply/懒加载实现.md",
+          ],
         },
         {
           title: "ES6+系列",
           children: [
             "/JavaScript/New/模拟实现Promise.md",
             "/JavaScript/New/模拟实现Set.md",
-            "/JavaScript/New/模拟实现reduce.md"
-          ]
+            "/JavaScript/New/模拟实现reduce.md",
+          ],
         },
         {
           title: "设计模式",
-          children: ["/JavaScript/Mode/观察者模式.md"]
-        }
+          children: ["/JavaScript/Mode/观察者模式.md"],
+        },
       ],
       "/DataStructure/": [
         "/DataStructure/",
@@ -62,9 +62,10 @@ module.exports = {
             "/DataStructure/Tree/二叉树的后序遍历.md",
             "/DataStructure/Tree/重建二叉树.md",
             "/DataStructure/Tree/对称二叉树.md",
-            "/DataStructure/Tree/二叉树的镜像.md"
-          ]
-        }
+            "/DataStructure/Tree/二叉树的镜像.md",
+            "/DataStructure/Tree/二叉搜索树的第k个节点.md",
+          ],
+        },
       ],
       "/Algorithm/": [
         "/Algorithm/",
@@ -73,10 +74,10 @@ module.exports = {
           children: [
             "/Algorithm/Sort/插入排序.md",
             "/Algorithm/Sort/冒泡排序.md",
-            "/Algorithm/Sort/选择排序.md"
-          ]
-        }
-      ]
-    }
-  }
+            "/Algorithm/Sort/选择排序.md",
+          ],
+        },
+      ],
+    },
+  },
 };

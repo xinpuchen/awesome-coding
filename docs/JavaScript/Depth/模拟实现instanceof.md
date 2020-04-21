@@ -4,8 +4,8 @@ instanceof：用于检测构造函数的 prototype 属性是否出现在某个�
 
 ## 要解决的问题
 
-1. 判断当前实力对象的原型是否存在
-2. 返回一个 boolean 值
+1. 判断当前实例对象的原型是否存在
+2. 返回一个 Boolean 值
 
 ```js
 function mockInstanceof(target, origin) {
