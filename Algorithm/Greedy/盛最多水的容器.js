@@ -1,0 +1,56 @@
+/**
+ * 盛最多水的容器
+ *
+ * 题目：给你 n 个非负整数 a1，a2，...，an，每个数代表坐标中的一个点 (i, ai) 。
+ * 在坐标内画 n 条垂直线，垂直线 i 的两个端点分别为 (i, ai) 和 (i, 0)。
+ * 找出其中的两条线，使得它们与 x 轴共同构成的容器可以容纳最多的水。
+ *
+ *
+ * 说明：你不能倾斜容器，且 n 的值至少为 2
+ *
+ *
+ * 双指针解法解题思路：
+ *
+ * 1. 使用 left 和 right 两个指针，分别指向最左边的木板 a[0] 和最右边的木板 a[n-1]，
+ *    这样，left 和 right 就构成了一个容器。这个容器的面积，是我们的初始值
+ * 2. 下一步，我们只需要看 left 对应的木板和 right 对应的木板谁小，就好了
+ *    如果 left 更小，那么就 left ++，也就是下一步去检查 a[1] 和 a[n - 1] 组成的容器是否更大？
+ *    如果 right 更小，那么就 right --，也就是看 a[0] 和 a[n - 2] 组成的容器是否更大？
+ *    这个过程以此类推，如果发现了更大的容器，就更新结果
+ * 3. 可以看出来，这个过程，或者 left ++，或者 right --，木板之间的距离越来越小。
+ *    直到 left 和 right 碰上，也就是两块木板重合了，容器的底为 0，此时，算法结束
+ * 4. 这个算法的复杂度是 O(n) 的。因为整个算法中，每一个木板都或者被 left 指针指过一次，
+ *    或者被 right 指针指过一次，直到 left 和 right 汇合
+ * 5. 对应的，res 一共被计算了 n-1 次。因为两个木板才能形成一个容器。使用这种方式，n 个木板，一共组成了 n-1 个容器
+ *
+ * leetcode：https://leetcode-cn.com/problems/container-with-most-water/
+ * 深入解析：https://mp.weixin.qq.com/s/Nm4tgudd7RB3dxCy8FP8BQ
+ *
+ */
+
+//  暴力解法
+const maxArea1 = (arr) => {
+  let result = 0;
+  for (let i = 0; i < arr.length; i++) {
+    for (let j = i + 1; j < arr.length; j++) {
+      result = Math.max(result, Math.min(arr[i], arr[j]) * (j - i));
+    }
+  }
+  return result;
+};
+
+// 双指针解法
+const maxArea2 = (arr) => {
+  let l = 0;
+  let r = arr.length - 1;
+  let result = 0;
+  while (l < r) {
+    result = Math.max(result, Math.min(arr[l], arr[r]) * (r - l));
+    if (arr[l] > arr[r]) {
+      r--;
+    } else {
+      l++;
+    }
+  }
+  return result;
+};
