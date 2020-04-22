@@ -63,4 +63,5 @@
 
 ### 贪心
 
+- [分发饼干](Algorithm/Greedy/分发饼干.js)
 - [盛最多水的容器](Algorithm/Greedy/盛最多水的容器.js)
