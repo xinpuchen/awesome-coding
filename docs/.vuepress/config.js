@@ -76,12 +76,15 @@ module.exports = {
             "/Algorithm/Sort/冒泡排序.md",
             "/Algorithm/Sort/选择排序.md",
             "/Algorithm/Sort/快速排序.md",
+            "/Algorithm/Sort/归并排序.md",
+            "/Algorithm/Sort/堆排序.md",
           ],
         },
         {
           title: "贪心",
           children: [
             "/Algorithm/Greedy/分发饼干.md",
+            "/Algorithm/Greedy/接雨水.md",
             "/Algorithm/Greedy/盛最多水的容器.md",
           ],
         },
