@@ -4,7 +4,7 @@
 
 > 为了提高阅读体验，您可以移步 [https://xinpuchen.github.io/awesome-coding/](https://xinpuchen.github.io/awesome-coding/) 在线阅读
 
-> 对于难以理解的地方，搭配 [https://visualgo.net/en](https://visualgo.net/en) 更有助于帮你理解思路哦！
+> 对于难以理解的地方，搭配 [https://visualgo.net/en](https://visualgo.net/en) 更有助于理清思路哦！
 
 > 如果本仓库对你有帮助，欢迎 star 或 watch
 
@@ -60,8 +60,11 @@
 - [插入排序](Algorithm/Sort/插入排序.js)
 - [选择排序](Algorithm/Sort/选择排序.js)
 - [快速排序](Algorithm/Sort/快速排序.js)
+- [归并排序](Algorithm/Sort/归并排序.js)
+- [堆排序](Algorithm/Sort/堆排序.js)
 
 ### 贪心
 
 - [分发饼干](Algorithm/Greedy/分发饼干.js)
+- [接雨水](Algorithm/Greedy/接雨水.js)
 - [盛最多水的容器](Algorithm/Greedy/盛最多水的容器.js)
