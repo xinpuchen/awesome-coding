@@ -64,6 +64,7 @@ module.exports = {
             "/DataStructure/Tree/对称二叉树.md",
             "/DataStructure/Tree/二叉树的镜像.md",
             "/DataStructure/Tree/二叉搜索树的第k个节点.md",
+            "/DataStructure/Tree/平衡二叉树.md",
           ],
         },
       ],
