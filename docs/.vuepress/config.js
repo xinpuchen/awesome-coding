@@ -84,6 +84,13 @@ module.exports = {
           ],
         },
         {
+          title: "查找",
+          children: [
+            "/Algorithm/Find/二维数组查找.md",
+            "/Algorithm/Find/旋转数组的最小数字.md",
+          ],
+        },
+        {
           title: "贪心",
           children: [
             "/Algorithm/Greedy/分发饼干.md",

@@ -66,6 +66,11 @@
 - [归并排序](Algorithm/Sort/归并排序.js)
 - [堆排序](Algorithm/Sort/堆排序.js)
 
+### 查找
+
+- [二维数组查找](Algorithm/Find/二维数组查找.js)
+- [旋转数组的最小数字](Algorithm/Find/旋转数组的最小数字.js)
+
 ### 贪心
 
 - [分发饼干](Algorithm/Greedy/分发饼干.js)
