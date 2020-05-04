@@ -71,6 +71,11 @@
 - [二维数组查找](Algorithm/Find/二维数组查找.js)
 - [旋转数组的最小数字](Algorithm/Find/旋转数组的最小数字.js)
 
+### BFS 和 DFS
+
+- [从上到下打印二叉树](Algorithm/BFSAndDFS/从上到下打印二叉树.js)
+- [路径总和](Algorithm/BFSAndDFS/路径总和.js)
+
 ### 贪心
 
 - [分发饼干](Algorithm/Greedy/分发饼干.js)

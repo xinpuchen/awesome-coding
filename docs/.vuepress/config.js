@@ -91,6 +91,13 @@ module.exports = {
           ],
         },
         {
+          title: "BFS 和 DFS",
+          children: [
+            "/Algorithm/BFSAndDFS/从上到下打印二叉树.md",
+            "/Algorithm/BFSAndDFS/路径总和.md",
+          ],
+        },
+        {
           title: "贪心",
           children: [
             "/Algorithm/Greedy/分发饼干.md",
