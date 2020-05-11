@@ -64,6 +64,9 @@ module.exports = {
             "/DataStructure/Tree/对称二叉树.md",
             "/DataStructure/Tree/二叉树的镜像.md",
             "/DataStructure/Tree/二叉搜索树的第k个节点.md",
+            "/DataStructure/Tree/二叉树的最大深度.md",
+            "/DataStructure/Tree/二叉树的最小深度.md",
+            "/DataStructure/Tree/平衡二叉树.md",
           ],
         },
         {
@@ -85,12 +88,29 @@ module.exports = {
             "/Algorithm/Sort/冒泡排序.md",
             "/Algorithm/Sort/选择排序.md",
             "/Algorithm/Sort/快速排序.md",
+            "/Algorithm/Sort/归并排序.md",
+            "/Algorithm/Sort/堆排序.md",
+          ],
+        },
+        {
+          title: "查找",
+          children: [
+            "/Algorithm/Find/二维数组查找.md",
+            "/Algorithm/Find/旋转数组的最小数字.md",
+          ],
+        },
+        {
+          title: "BFS 和 DFS",
+          children: [
+            "/Algorithm/BFSAndDFS/从上到下打印二叉树.md",
+            "/Algorithm/BFSAndDFS/路径总和.md",
           ],
         },
         {
           title: "贪心",
           children: [
             "/Algorithm/Greedy/分发饼干.md",
+            "/Algorithm/Greedy/接雨水.md",
             "/Algorithm/Greedy/盛最多水的容器.md",
           ],
         },

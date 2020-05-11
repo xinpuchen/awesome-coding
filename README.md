@@ -2,7 +2,7 @@
 
 > 你必须非常努力，才能显得毫不费力！
 
-> 为了提高阅读体验，您可以移步 [https://xinpuchen.github.io/awesome-coding/](https://xinpuchen.github.io/awesome-coding/) 在线阅读
+> 为了提高阅读体验，您可以移步 [https://xinpuchen.top/awesome-coding/](https://xinpuchen.top/awesome-coding/) 在线阅读
 
 > 对于难以理解的地方，搭配 [https://visualgo.net/en](https://visualgo.net/en) 更有助于理清思路哦！
 
@@ -51,6 +51,9 @@
 - [对称二叉树](DataStructure/Tree/对称二叉树.js)
 - [二叉树的镜像](DataStructure/Tree/二叉树的镜像.js)
 - [二叉搜索树的第 k 个节点](DataStructure/Tree/二叉搜索树的第k个节点.js)
+- [二叉树的最大深度](DataStructure/Tree/二叉树的最大深度.js)
+- [二叉树的最小深度](DataStructure/Tree/二叉树的最小深度.js)
+- [平衡二叉树](DataStructure/Tree/平衡二叉树.js)
 
 ### 链表
 
@@ -69,6 +72,16 @@
 - [快速排序](Algorithm/Sort/快速排序.js)
 - [归并排序](Algorithm/Sort/归并排序.js)
 - [堆排序](Algorithm/Sort/堆排序.js)
+
+### 查找
+
+- [二维数组查找](Algorithm/Find/二维数组查找.js)
+- [旋转数组的最小数字](Algorithm/Find/旋转数组的最小数字.js)
+
+### BFS 和 DFS
+
+- [从上到下打印二叉树](Algorithm/BFSAndDFS/从上到下打印二叉树.js)
+- [路径总和](Algorithm/BFSAndDFS/路径总和.js)
 
 ### 贪心
 

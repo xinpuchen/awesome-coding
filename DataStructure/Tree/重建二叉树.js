@@ -6,7 +6,7 @@
  * 示例：例如输入前序遍历序列{1,2,4,7,3,5,6,8}和中序遍历序列{4,7,2,1,5,3,8,6}，则重建二叉树并返回
  *
  * 思路：
- * 1. 前序遍历：跟节点 + 左子树前序遍历 + 右子树前序遍历
+ * 1. 前序遍历：根节点 + 左子树前序遍历 + 右子树前序遍历
  * 2. 中序遍历：左子树中序遍历 + 跟节点 + 右字数中序遍历
  * 3. 后序遍历：左子树后序遍历 + 右子树后序遍历 + 跟节点
  *
@@ -17,7 +17,6 @@
  * 4. 截取左子树的前序遍历、右子树的前序遍历
  * 5. 递归重建二叉树
  */
-const readline = require("readline");
 
 function Node(data, left, right) {
   this.data = data;
@@ -62,6 +61,8 @@ function reConstructBinaryTree(pre, mid) {
  *
  */
 
+const readline = require("readline");
+
 function getHRD(pre, mid) {
   if (!pre) {
     return "";
@@ -81,13 +82,13 @@ function getHRD(pre, mid) {
 const rl = readline.createInterface({
   input: process.stdin,
   output: process.stdout,
-  prompt: "input > \n"
+  prompt: "input > \n",
 });
 
 const lines = [];
 
 rl.prompt();
-rl.on("line", line => {
+rl.on("line", (line) => {
   lines.push(line);
   if (lines.length === 2) {
     if (lines[0].length === lines[1].length) {

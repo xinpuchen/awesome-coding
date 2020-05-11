@@ -1,0 +1,32 @@
+/**
+ * 二叉树的最大深度
+ *
+ * 二叉树的深度为根节点到最远叶子节点的最长路径上的节点数
+ *
+ * 说明：叶子节点是指没有子节点的节点
+ */
+
+//  递归实现
+
+const maxDepth = (root) => {
+  if (root == null) return 0;
+  return Math.max(maxDepth(root.left) + 1, maxDepth(root.right) + 1);
+};
+
+// 非递归实现
+// 采用层序遍历的方式
+var maxDepth = function(root) {
+  if (root === null) return 0;
+  var queue = [root];
+  var level = 0;
+  while (queue.length) {
+    var size = queue.length;
+    while (size--) {
+      var node = queue.shift();
+      if (node.left) queue.push(node.left);
+      if (node.right) queue.push(node.right);
+    }
+    level++;
+  }
+  return level;
+};
