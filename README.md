@@ -55,6 +55,13 @@
 - [二叉树的最小深度](DataStructure/Tree/二叉树的最小深度.js)
 - [平衡二叉树](DataStructure/Tree/平衡二叉树.js)
 
+### 链表
+
+- [反转链表](DataStructure/Head/反转链表.js)
+- [合并两个排序的链表](DataStructure/Head/合并两个排序的链表.js)
+- [链表中倒数第 k 个节点](DataStructure/Head/链表中倒数第k个节点.js)
+- [删除链表中的节点](DataStructure/Head/删除链表中的节点.js)
+
 ## 算法
 
 ### 排序

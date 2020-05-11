@@ -69,6 +69,15 @@ module.exports = {
             "/DataStructure/Tree/平衡二叉树.md",
           ],
         },
+        {
+          title: "链表",
+          children: [
+            "/DataStructure/Head/反转链表.md",
+            "/DataStructure/Head/合并两个排序的链表.md",
+            "/DataStructure/Head/链表中倒数第k个节点.md",
+            "/DataStructure/Head/删除链表中的节点.md",
+          ],
+        },
       ],
       "/Algorithm/": [
         "/Algorithm/",

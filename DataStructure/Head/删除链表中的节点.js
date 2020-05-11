@@ -1,0 +1,27 @@
+/**
+ * 删除链表中的节点
+ *
+ * 给定单链表的头指针和要删除的指针节点
+ *
+ * 思路：通常借助哨兵节点，来简化代码。
+ * 哨兵节点的用法灵活，一般是不保存任何数据的节点，所有的逻辑都收归到了 while 循环中
+ */
+
+function ListNode(val) {
+  this.val = val;
+  this.next = null;
+}
+
+const deleteNode = (head, val) => {
+  let pre = new ListNode(-1);
+  pre.next = head;
+  let node = pre;
+  while (node.next) {
+    if (node.next.val === val) {
+      node.next = node.next.next;
+      break;
+    }
+    node = node.next;
+  }
+  return pre.next;
+};
