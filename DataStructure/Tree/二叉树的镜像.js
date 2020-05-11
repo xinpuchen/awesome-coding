@@ -14,4 +14,5 @@ function Mirror(root) {
     Mirror(root.right);
     Mirror(root.left);
   }
+  return root;
 }
