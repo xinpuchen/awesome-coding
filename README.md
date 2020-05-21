@@ -23,6 +23,7 @@
 - [防抖 debounce](JavaScript/Apply/防抖debounce.js)
 - [节流 throttle](JavaScript/Apply/节流throttle.js)
 - [函数柯里化](JavaScript/Apply/函数柯里化.js)
+- [函数式编程 compose](JavaScript/Apply/函数式编程compose.js)
 - [实现深拷贝](JavaScript/Apply/深拷贝.js)
 - [数组去重、数组扁平化处理](JavaScript/Apply/数组去重、扁平.js)
 - [数组乱序-洗牌算法](JavaScript/Apply/数组乱序-洗牌算法.js)
@@ -62,12 +63,9 @@
 - [链表中倒数第 k 个节点](DataStructure/Head/链表中倒数第k个节点.js)
 - [删除链表中的节点](DataStructure/Head/删除链表中的节点.js)
 
-### 链表
+### 矩阵
 
-- [反转链表](DataStructure/Head/反转链表.js)
-- [合并两个排序的链表](DataStructure/Head/合并两个排序的链表.js)
-- [链表中倒数第 k 个节点](DataStructure/Head/链表中倒数第k个节点.js)
-- [删除链表中的节点](DataStructure/Head/删除链表中的节点.js)
+- [顺时针打印矩阵](DataStructure/Matrix/顺时针打印矩阵.js)
 
 ## 算法
 
