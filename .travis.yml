@@ -9,7 +9,7 @@ branches:
 install:
   - npm i
 script:
-  - npm run build:docs
+  - npm run build
 deploy:
   provider: pages
   skip_cleanup: true

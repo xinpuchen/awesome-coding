@@ -1,6 +1,7 @@
 module.exports = {
   title: "Awesome-coding",
-  description: "前端算法进阶之路",
+  description:
+    "前端算法进阶之路 Awesome-coding，包括 JavaScript、数据结构、常见算法、剑指offer、leetCode",
   base: "/awesome-coding/",
   themeConfig: {
     sidebarDepth: 2,
@@ -31,6 +32,7 @@ module.exports = {
             "/JavaScript/Apply/防抖debounce.md",
             "/JavaScript/Apply/节流throttle.md",
             "/JavaScript/Apply/函数柯里化.md",
+            "/JavaScript/Apply/函数式编程compose.md",
             "/JavaScript/Apply/深拷贝.md",
             "/JavaScript/Apply/数组去重、扁平.md",
             "/JavaScript/Apply/数组乱序-洗牌算法.md",
@@ -77,6 +79,10 @@ module.exports = {
             "/DataStructure/Head/链表中倒数第k个节点.md",
             "/DataStructure/Head/删除链表中的节点.md",
           ],
+        },
+        {
+          title: "矩阵",
+          children: ["/DataStructure/Matrix/顺时针打印矩阵.md"],
         },
       ],
       "/Algorithm/": [

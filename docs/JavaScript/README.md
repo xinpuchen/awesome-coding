@@ -13,6 +13,7 @@
 - [防抖 debounce](Apply/防抖debounce.md)
 - [节流 throttle](Apply/节流throttle.md)
 - [函数柯里化](Apply/函数柯里化.md)
+- [函数式编程 compose](Apply/函数式编程compose.md)
 - [实现深拷贝](Apply/深拷贝.md)
 - [数组去重、数组扁平化处理](Apply/数组去重、扁平.md)
 - [数组乱序-洗牌算法](Apply/数组乱序-洗牌算法.md)
