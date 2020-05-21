@@ -1,7 +1,6 @@
 module.exports = {
   title: "Awesome-coding",
-  description:
-    "前端算法进阶之路 Awesome-coding，包括 JavaScript、数据结构、常见算法、剑指offer、leetCode",
+  description: "算法进阶之路",
   base: "/awesome-coding/",
   themeConfig: {
     sidebarDepth: 2,
