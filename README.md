@@ -77,6 +77,7 @@
 - [快速排序](Algorithm/Sort/快速排序.js)
 - [归并排序](Algorithm/Sort/归并排序.js)
 - [堆排序](Algorithm/Sort/堆排序.js)
+- [希尔排序](Algorithm/Sort/希尔排序.js)
 
 ### 查找
 

@@ -95,6 +95,7 @@ module.exports = {
             "/Algorithm/Sort/快速排序.md",
             "/Algorithm/Sort/归并排序.md",
             "/Algorithm/Sort/堆排序.md",
+            "/Algorithm/Sort/希尔排序.md"
           ],
         },
         {
