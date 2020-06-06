@@ -13,7 +13,7 @@
 function throttle(event, time) {
   let timer = null;
   return function(...args) {
-    if (timer) {
+    if (!timer) {
       timer = setTimeout(() => {
         timer = null;
         event.apply(this, args);
