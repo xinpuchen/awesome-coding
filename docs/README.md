@@ -10,7 +10,7 @@ features:
     details: 常见数据结构（堆、栈、数组、链表、哈希表、二叉树）的基本使用以及典型题目分析。
   - title: 算法
     details: 常见算法解题指南和典型算法的 JavaScript 实现。
-footer: MIT Licensed | Copyright © 2020-present 昕普同学
+footer: MIT Licensed | Copyright © 2020-present 昕浦同学
 ---
 
 ::: tip 提示
@@ -18,5 +18,5 @@ footer: MIT Licensed | Copyright © 2020-present 昕普同学
 
 对于难以理解的地方，搭配 [https://visualgo.net/zh](https://visualgo.net/zh) 更有助于理清思路哦！
 
-如果[本项目](https://github.com/xinpuchen/frontend-notes)对你有帮助，欢迎 star :star: 或 watch :eyes:
+如果[本项目](https://github.com/xinpuchen/awesome-coding)对你有帮助，欢迎 star :star: 或 watch :eyes:
 :::
