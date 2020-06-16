@@ -1,7 +1,10 @@
 module.exports = {
   title: "Awesome-coding",
-  description: "算法进阶之路",
+  description: "前端算法进阶",
   base: "/awesome-coding/",
+  head: [
+    ['link', { rel: 'shortcut icon', href: '/favicon.ico', type: 'image/x-icon' }]
+  ],
   themeConfig: {
     sidebarDepth: 2,
     lastUpdated: "Last Updated",
@@ -9,8 +12,9 @@ module.exports = {
       { text: "JavaScript", link: "/JavaScript/" },
       { text: "数据结构", link: "/DataStructure/" },
       { text: "算法", link: "/Algorithm/" },
+      { text: "前端笔记", link: "https://xinpuchen.github.io/frontend-notes"},
       { text: "博客", link: "https://xinpuchen.github.io" },
-      { text: "github", link: "https://github.com/xinpuchen" },
+      { text: "github", link: "https://github.com/xinpuchen/awesome-coding" },
     ],
     sidebar: {
       "/JavaScript/": [

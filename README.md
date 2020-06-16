@@ -4,9 +4,9 @@
 
 > 为了提高阅读体验，您可以移步 [https://xinpuchen.top/awesome-coding/](https://xinpuchen.top/awesome-coding/) 在线阅读
 
-> 对于难以理解的地方，搭配 [https://visualgo.net/en](https://visualgo.net/en) 更有助于理清思路哦！
+> 对于难以理解的地方，搭配 [https://visualgo.net/zh](https://visualgo.net/zh) 更有助于理清思路哦！
 
-> 如果本仓库对你有帮助，欢迎 star 或 watch
+> 如果本项目对你有帮助，欢迎 star :star: 或 watch :eyes:
 
 ## JavaScript
 

@@ -12,3 +12,11 @@ features:
     details: 常见算法解题指南和典型算法的 JavaScript 实现。
 footer: MIT Licensed | Copyright © 2020-present 昕普同学
 ---
+
+::: tip 提示
+你必须非常努力，才能显得毫不费力！
+
+对于难以理解的地方，搭配 [https://visualgo.net/zh](https://visualgo.net/zh) 更有助于理清思路哦！
+
+如果[本项目](https://github.com/xinpuchen/frontend-notes)对你有帮助，欢迎 star :star: 或 watch :eyes:
+:::
