@@ -25,20 +25,14 @@ function debounce(func, time) {
 
 // 添加 flag 参数，确定是否第一次执行，默认 false
 function debounce(func, time, flag) {
-  var timer = null;
+  let timer = null;
   return function() {
-    var _this = this;
     clearTimeout(timer);
-    if (flag) {
-      var callNow = !timer;
-      timer = setTimeout(function() {
-        timer = null;
-      }, time);
-      if (callNow) func.apply(_this, arguments);
-    } else {
-      timer = setTimeout(function() {
-        func.apply(_this, arguments);
-      }, time);
+    if (flag && !timer) {
+      func.apply(this, arguments);
     }
+    timer = setTimeout(function() {
+      func.apply(this, arguments);
+    }, time);
   };
 }
