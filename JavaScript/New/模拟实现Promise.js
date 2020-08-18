@@ -237,16 +237,15 @@ MockPromise.reject = functiont(reason){
 MockPromise.all = function(promises){
   return new MockPromise(function(resolve, reject){
     if(promises.length === 0 ) return resolve([]);
-    let result = [];
-    let index = 0;
+    const result = [];
     for(let i = 0,len = promises.length; i < len; i++){
       promises[i].then(data => {
-        result[i] = data;
-        if(++i === promises.length) {
+        result.push(data);
+        if(i === promises.length - 1) {
           resolve(result);
         }
-      }, reason => {
-        return reject(reason);
+      }).catch(reason => {
+        reject(reason);
       });
     }
   })
@@ -262,8 +261,8 @@ MockPromise.race = function(promises){
     for(let i = 0, len = promises.length; i < len; i++){
       promises[i].then(data => {
         return resolve(data);
-      }, reason => {
-        reject(reason)
+      }).catch(reason => {
+        reject(reason);
       })
     }
   })

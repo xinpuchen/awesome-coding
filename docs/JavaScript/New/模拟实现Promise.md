@@ -243,26 +243,22 @@ MockPromise.reject = functiont(reason){
 接收一个 promise 数组，当所以的 promise 返回 resolve 后，执行 resolve，当 promise 返回第一个 reject 后，直接执行 reject
 
 ```js
-MockPromise.all = function(promises) {
-  return new MockPromise(function(resolve, reject) {
-    if (promises.length === 0) return resolve([]);
-    let result = [];
-    let index = 0;
-    for (let i = 0, len = promises.length; i < len; i++) {
-      promises[i].then(
-        data => {
-          result[i] = data;
-          if (++i === promises.length) {
-            resolve(result);
-          }
-        },
-        reason => {
-          return reject(reason);
+MockPromise.all = function(promises){
+  return new MockPromise(function(resolve, reject){
+    if(promises.length === 0 ) return resolve([]);
+    const result = [];
+    for(let i = 0,len = promises.length; i < len; i++){
+      promises[i].then(data => {
+        result.push(data);
+        if(i === promises.length - 1) {
+          resolve(result);
         }
-      );
+      }).catch(reason => {
+        reject(reason);
+      });
     }
-  });
-};
+  })
+}
 ```
 
 ## MockPromise.race 方法
@@ -270,19 +266,17 @@ MockPromise.all = function(promises) {
 接收一个 promise 数组，当有一个 promise 返回 resolve 后，执行 resolve
 
 ```js
-MockPromise.race = function(promises) {
-  return new MockPromise(function(resolve, reject) {
-    if (promises.length === 0) return resolve([]);
-    for (let i = 0, len = promises.length; i < len; i++) {
-      promises[i].then(
-        data => {
-          return resolve(data);
-        },
-        reason => {
-          reject(reason);
-        }
-      );
+MockPromise.race = function(promises){
+  return new MockPromise(function(resolve, reject){
+    if(promises.length === 0) return resolve([]);
+    for(let i = 0, len = promises.length; i < len; i++){
+      promises[i].then(data => {
+        return resolve(data);
+      }).catch(reason => {
+        reject(reason);
+      })
     }
-  });
-};
+  })
+}
+
 ```
