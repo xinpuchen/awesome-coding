@@ -24,6 +24,7 @@
 - [节流 throttle](JavaScript/Apply/节流throttle.js)
 - [函数柯里化](JavaScript/Apply/函数柯里化.js)
 - [函数式编程 compose](JavaScript/Apply/函数式编程compose.js)
+- [洋葱模型 compose](JavaScript/Apply/洋葱模型compose.js)
 - [实现深拷贝](JavaScript/Apply/深拷贝.js)
 - [数组去重、数组扁平化处理](JavaScript/Apply/数组去重、扁平.js)
 - [数组乱序-洗牌算法](JavaScript/Apply/数组乱序-洗牌算法.js)

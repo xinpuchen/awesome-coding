@@ -36,6 +36,7 @@ module.exports = {
             "/JavaScript/Apply/节流throttle.md",
             "/JavaScript/Apply/函数柯里化.md",
             "/JavaScript/Apply/函数式编程compose.md",
+            "/JavaScript/Apply/洋葱模型compose.md",
             "/JavaScript/Apply/深拷贝.md",
             "/JavaScript/Apply/数组去重、扁平.md",
             "/JavaScript/Apply/数组乱序-洗牌算法.md",
