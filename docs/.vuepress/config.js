@@ -78,10 +78,10 @@ module.exports = {
         {
           title: "链表",
           children: [
-            "/DataStructure/Head/反转链表.md",
-            "/DataStructure/Head/合并两个排序的链表.md",
-            "/DataStructure/Head/链表中倒数第k个节点.md",
-            "/DataStructure/Head/删除链表中的节点.md",
+            "/DataStructure/LinkedList/反转链表.md",
+            "/DataStructure/LinkedList/合并两个排序的链表.md",
+            "/DataStructure/LinkedList/链表中倒数第k个节点.md",
+            "/DataStructure/LinkedList/删除链表中的节点.md",
           ],
         },
         {
