@@ -60,6 +60,28 @@ const head1 = {
     },
   },
 };
+const head2 = {
+  val: 1,
+  next: {
+    val: 2,
+    next: {
+      val: 3,
+      next: {
+        val: 4,
+        next: {
+          val: 5,
+          next: {
+            val: 6,
+            next: {
+              val: 7,
+              next: null
+            }
+          }
+        }
+      }
+    }
+  }
+}
 const matrix = [
   [1,   4,  7, 11, 15],
   [2,   5,  8, 12, 19],
@@ -72,5 +94,6 @@ module.exports = {
   root,
   head,
   head1,
+  head2,
   matrix
 };

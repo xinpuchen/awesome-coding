@@ -37,6 +37,8 @@
  * @param {ListNode} head
  * @return {ListNode}
  */
+const { head2 } = require('../../data');
+
 var reverseList = function(head) {
   if(!head) return null;
   let pre = null, cur = head;
@@ -49,4 +51,4 @@ var reverseList = function(head) {
   return pre;
 };
 // @lc code=end
-
+console.log(reverseList(head2));
