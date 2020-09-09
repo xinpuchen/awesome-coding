@@ -16,6 +16,7 @@
 - [模拟实现 bind](JavaScript/Depth/模拟实现bind.js)
 - [模拟实现 new](JavaScript/Depth/模拟实现new.js)
 - [模拟实现 instanceof](JavaScript/Depth/模拟实现instanceof.js)
+- [reduce 实现 map 和 filter](JavaScript/Depth/reduce实现map和filter.js)
 - [继承的多种方式](JavaScript/Depth/继承的多种方式.js)
 
 ### 应用系列

@@ -6,6 +6,7 @@
 - [模拟实现 bind](Depth/模拟实现bind.md)
 - [模拟实现 new](Depth/模拟实现new.md)
 - [模拟实现 instanceof](Depth/模拟实现instanceof.md)
+- [reduce 实现 map 和 filter](Depth/reduce实现map和filter.md)
 - [继承的多种方式](Depth/继承的多种方式.md)
 
 ## 应用系列
