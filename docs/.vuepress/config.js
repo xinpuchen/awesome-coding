@@ -26,6 +26,7 @@ module.exports = {
             "/JavaScript/Depth/模拟实现bind.md",
             "/JavaScript/Depth/模拟实现new.md",
             "/JavaScript/Depth/模拟实现instanceof.md",
+            "/JavaScript/Depth/reduce实现map和filter.md",
             "/JavaScript/Depth/继承的多种方式.md",
           ],
         },

@@ -26,6 +26,6 @@
   },
   "homepage": "https://github.com/xinpuchen/awesome-coding#readme",
   "devDependencies": {
-    "vuepress": "^1.5.3"
+    "vuepress": "^1.5.4"
   }
 }
