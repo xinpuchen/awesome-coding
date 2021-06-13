@@ -24,7 +24,7 @@
   "bugs": {
     "url": "https://github.com/xinpuchen/awesome-coding/issues"
   },
-  "homepage": "https://github.com/xinpuchen/awesome-coding#readme",
+  "homepage": "https://github.com/xinpuchen/awesome-coding",
   "devDependencies": {
     "vuepress": "^1.5.4"
   }
