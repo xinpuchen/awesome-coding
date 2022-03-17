@@ -31,6 +31,7 @@
 - [数组乱序-洗牌算法](JavaScript/Apply/数组乱序-洗牌算法.js)
 - [Promise 封装 Ajax](JavaScript/Apply/Promise封装ajax.js)
 - [懒加载实现](JavaScript/Apply/懒加载实现.js)
+- [Immutable 实现](JavaScript/Apply/Immutable实现.js)
 
 ### ES6+系列
 

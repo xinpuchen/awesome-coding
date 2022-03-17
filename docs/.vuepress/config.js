@@ -43,6 +43,7 @@ module.exports = {
             "/JavaScript/Apply/数组乱序-洗牌算法.md",
             "/JavaScript/Apply/Promise封装ajax.md",
             "/JavaScript/Apply/懒加载实现.md",
+            "/JavaScript/Apply/Immutable实现.md",
           ],
         },
         {
