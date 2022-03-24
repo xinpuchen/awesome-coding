@@ -32,6 +32,7 @@
 - [Promise 封装 Ajax](JavaScript/Apply/Promise封装ajax.js)
 - [懒加载实现](JavaScript/Apply/懒加载实现.js)
 - [Immutable 实现](JavaScript/Apply/Immutable实现.js)
+- [RAF 实现定时器](JavaScript/Apply/RAF实现定时器.js)
 
 ### ES6+系列
 
