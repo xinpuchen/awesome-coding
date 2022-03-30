@@ -20,6 +20,8 @@
 - [数组乱序-洗牌算法](Apply/数组乱序-洗牌算法.md)
 - [Promise 封装 Ajax](Apply/Promise封装ajax.md)
 - [懒加载实现](Apply/懒加载实现.md)
+- [RAF 实现定时器](Apply/RAF实现定时器.md)
+- [模版字符串](Apply/模版字符串.md)
 
 ## ES6+系列
 

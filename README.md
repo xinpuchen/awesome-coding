@@ -33,6 +33,7 @@
 - [懒加载实现](JavaScript/Apply/懒加载实现.js)
 - [Immutable 实现](JavaScript/Apply/Immutable实现.js)
 - [RAF 实现定时器](JavaScript/Apply/RAF实现定时器.js)
+- [模版字符串](JavaScript/Apply/模版字符串.js)
 
 ### ES6+系列
 
