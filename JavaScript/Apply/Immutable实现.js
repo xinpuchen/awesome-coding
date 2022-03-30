@@ -24,11 +24,6 @@ const obj = {
 	gender: 1
 };
 
-const obj = {
-	name: 'xinpu',
-	gender: 1
-};
-
 const o = immutable(obj);
 
 o.get(name);

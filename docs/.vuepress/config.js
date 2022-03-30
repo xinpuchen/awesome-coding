@@ -42,7 +42,8 @@ module.exports = {
 						'/JavaScript/Apply/Promise封装ajax.md',
 						'/JavaScript/Apply/懒加载实现.md',
 						'/JavaScript/Apply/Immutable实现.md',
-						'/JavaScript/Apply/RAF实现定时器.md'
+						'/JavaScript/Apply/RAF实现定时器.md',
+						'/JavaScript/Apply/模版字符串.md'
 					]
 				},
 				{
