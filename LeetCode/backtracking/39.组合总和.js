@@ -75,12 +75,13 @@ var combinationSum = function(candidates, target) {
 		}
 		// 枚举当前可选的数，从start开始
 		for (let i = start; i < candidates.length; i++) {
-			temp.push(candidates[i]); // 选这个数
-			dfs(i, temp, sum + candidates[i]); // 基于此继续选择，传i，下一次就不会选到i左边的数
-			temp.pop(); // 撤销选择，回到选择candidates[i]之前的状态，继续尝试选同层右边的数
+			dfs(i, [ ...temp, candidates[i] ], sum + candidates[i]); // 基于此继续选择，传i，下一次就不会选到i左边的数
 		}
 	};
 	dfs(0, [], 0); // 最开始可选的数是从第0项开始的，传入一个空集合，sum也为0
 	return result;
 };
+console.log(combinationSum([ 2, 3, 6, 7 ], 7));
+console.log(combinationSum([ 2, 3, 5 ], 8));
+console.log(combinationSum([ 2 ], 1));
 // @lc code=end
